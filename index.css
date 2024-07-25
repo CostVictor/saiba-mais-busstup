@@ -31,6 +31,11 @@ footer > ul {
   font-size: 15px;
 }
 
+main {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
 nav {
   margin-left: auto;
 }
@@ -99,4 +104,36 @@ figcaption {
   display: flex;
   overflow-x: auto;
   margin: 0px 30px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 29px;
+  }
+
+  ul {
+    gap: 10px;
+    font-size: 12.5px;
+  }
+
+  .logo {
+    width: 9em;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    border: none;
+    margin-left: 0px;
+  }
+
+  .logo {
+   display: none;
+  }
 }
